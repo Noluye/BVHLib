@@ -5,7 +5,7 @@ A fast BVH ([Biovision Hierarchical Data](https://research.cs.wisc.edu/graphics/
 ## Supported Platforms
 
 - [ ] Windows
-- [ ] MacOS
+- [ ] MacOSX
 
 ## Key Features
 
