@@ -1,3 +1,10 @@
 #pragma once
+#include "Vector3.h"
 
-int GetInt();
+namespace bvhlib {
+using namespace m3;
+
+
+}
+
+

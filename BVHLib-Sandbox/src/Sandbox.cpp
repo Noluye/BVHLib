@@ -1,8 +1,11 @@
 #include <iostream>
 #include "BVHLib.h"
+#include "TestVector3.h"
+
 
 int main()
 {
-    std::cout << "hello BVHLib! \n";
-    std::cout << GetInt() << std::endl;
+    std::cout << "Testing BVHLib...\n";
+    
+    TestVector3().Test();
 }
