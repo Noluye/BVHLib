@@ -5,7 +5,7 @@
 
 int main()
 {
-    std::cout << "Testing BVHLib...\n";
-    
-    TestVector3().Test();
+	std::cout << "Testing BVHLib...\n";
+
+	TestVector3().Test();
 }

@@ -4,3 +4,8 @@ bin-int/
 # macosx
 *.xcodeproj/
 *.xcworkspace/
+
+# vs
+*.vcxproj*
+/.vs/BVHLib
+*.sln
