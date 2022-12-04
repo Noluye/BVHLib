@@ -8,27 +8,27 @@
 class Timer
 {
 public:
-    Timer() = default;
-    ~Timer() = default;
-    void Start();
-    float GetIntervalMilliseconds();
+	Timer() = default;
+	~Timer() = default;
+	void Start();
+	float GetIntervalMilliseconds();
 private:
-    std::chrono::time_point<std::chrono::high_resolution_clock> startTimePoint;
+	std::chrono::time_point<std::chrono::high_resolution_clock> startTimePoint;
 };
 
 struct TestMessage
 {
-    bool success;
-    float milliseconds;
+	bool success;
+	float milliseconds;
 };
 
 class ITesting
 {
 public:
-    void Test();
+	void Test();
 protected:
-    virtual void AddTests() {};
-    void AddTest(std::function<bool()> func);
+	virtual void AddTests() {};
+	void AddTest(std::function<bool()> func);
 private:
-    std::vector<std::function<bool()>> testFunctions;
+	std::vector<std::function<bool()>> testFunctions;
 };
